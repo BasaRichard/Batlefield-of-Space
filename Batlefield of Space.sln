@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Batlefield_of_Space", "Batlefield of Space\Batlefield_of_Space\Batlefield_of_Space.csproj", "{9BDB43E1-E6B1-46F7-8EBE-3EA3F67DC9B7}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Batlefield_of_SpaceContent", "Batlefield of Space\Batlefield_of_SpaceContent\Batlefield_of_SpaceContent.contentproj", "{CEF72C9F-F34A-41F7-881C-174EC7A8A9CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BDB43E1-E6B1-46F7-8EBE-3EA3F67DC9B7}.Debug|x86.ActiveCfg = Debug|x86
+		{9BDB43E1-E6B1-46F7-8EBE-3EA3F67DC9B7}.Debug|x86.Build.0 = Debug|x86
+		{9BDB43E1-E6B1-46F7-8EBE-3EA3F67DC9B7}.Release|x86.ActiveCfg = Release|x86
+		{9BDB43E1-E6B1-46F7-8EBE-3EA3F67DC9B7}.Release|x86.Build.0 = Release|x86
+		{CEF72C9F-F34A-41F7-881C-174EC7A8A9CD}.Debug|x86.ActiveCfg = Debug|x86
+		{CEF72C9F-F34A-41F7-881C-174EC7A8A9CD}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
