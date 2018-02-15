@@ -5,8 +5,32 @@ using System.Text;
 
 namespace Batlefield_of_Space
 {
-   public class ENUMS
+   public class Enums
     {
+        public Game GAME
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
+
+        public Game Game
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
+
         public enum GameState
         {
             Start = 1,

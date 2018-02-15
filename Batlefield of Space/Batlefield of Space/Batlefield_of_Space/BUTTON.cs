@@ -88,5 +88,17 @@ namespace ScreenElement
         {
             spritebatch.DrawString(font, text, where, Color.White);
         }
+
+        public Batlefield_of_Space.Game Game
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
     }
 }

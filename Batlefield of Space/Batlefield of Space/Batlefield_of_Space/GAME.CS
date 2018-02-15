@@ -9,14 +9,14 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using ScreenElement;
-using static Batlefield_of_Space.ENUMS;
+using static Batlefield_of_Space.Enums;
 
 namespace Batlefield_of_Space
 {
     /// <summary>
     /// This is the main type for your game
     /// </summary>
-    public class GAME : Microsoft.Xna.Framework.Game
+    public class Game : Microsoft.Xna.Framework.Game
     {
         private float timeElapsed;
         GraphicsDeviceManager graphics;
@@ -34,7 +34,7 @@ namespace Batlefield_of_Space
             
 
 
-        public GAME()
+        public Game()
         {
             this.IsMouseVisible = true;
             graphics = new GraphicsDeviceManager(this);
@@ -119,7 +119,7 @@ namespace Batlefield_of_Space
                                 character.Move(10, 0);
                                 if (timeElapsed >= character.Interval)
                                 {
-                                    character.Animation(ENUMS.Orientation.Right);
+                                    character.Animation(Enums.Orientation.Right);
                                     timeElapsed = 0;
                                 }
                             }
@@ -128,7 +128,7 @@ namespace Batlefield_of_Space
                                 character.Move(-10, 0);
                                 if (timeElapsed >= character.Interval)
                                 {
-                                    character.Animation(ENUMS.Orientation.Left);
+                                    character.Animation(Enums.Orientation.Left);
                                     timeElapsed = 0;
                                 }
                             }
@@ -137,7 +137,7 @@ namespace Batlefield_of_Space
                                 character.Move(0, -10);
                                 if (timeElapsed >= character.Interval)
                                 {
-                                    character.Animation(ENUMS.Orientation.Up);
+                                    character.Animation(Enums.Orientation.Up);
                                     timeElapsed = 0;
                                 }
                             }
@@ -146,7 +146,7 @@ namespace Batlefield_of_Space
                                 character.Move(0, 10);
                                 if (timeElapsed >= character.Interval)
                                 {
-                                    character.Animation(ENUMS.Orientation.Down);
+                                    character.Animation(Enums.Orientation.Down);
                                     timeElapsed = 0;
                                 }
                             }
@@ -168,7 +168,7 @@ namespace Batlefield_of_Space
                         }
                 }
                
-                #region  
+                #region  Menu
                 
 
                
@@ -184,7 +184,8 @@ namespace Batlefield_of_Space
                             buttons.Add(new Button(100, 200, Content.Load<Texture2D>("bt_exit"), null));
                             if (buttons[0].LeftClick(ms, prevms)) { 
                                 menuState = MenuState.Newgame;
-                                gameState = GameState.Start;}
+                                
+                            }
                             else if (buttons[1].LeftClick(ms, prevms))
                                 menuState = MenuState.Load;
                             else if (buttons[2].LeftClick(ms, prevms))
@@ -199,9 +200,10 @@ namespace Batlefield_of_Space
                             buttons.Add(new Button(150, 300, Content.Load<Texture2D>("alian1"), null));
                             buttons.Add(new Button(300, 300, Content.Load<Texture2D>("alian2"), null));
                             buttons.Add(new Button(450, 300, Content.Load<Texture2D>("alian3"), null));
-                            if (buttons[0].LeftClick(ms, prevms))
-                                gameState= GameState.Start;
+                            if (buttons[0].LeftClick(ms, prevms)) { 
+                            gameState = GameState.Start;
                             menuState = MenuState.Game;
+                        }
                             if (buttons[1].LeftClick(ms, prevms))
                                 menuState = MenuState.Start;
                 #region
@@ -291,13 +293,18 @@ namespace Batlefield_of_Space
            
 
             spriteBatch.Begin();
-            spriteBatch.Draw(character.Texture, character.Position, 
+            if (gameState == GameState.Start)
+            {
+                spriteBatch.Draw(character.Texture, character.Position, 
                 new Rectangle(
                 character.CurrentFrameX * character.FrameWidth,
                 character.CurrentFrameY * character.FrameHegiht,
                 character.FrameWidth,
                 character.FrameHegiht
                 ),Color.White);
+
+            }
+            
             #region
             if (menuState != MenuState.Game)
             {

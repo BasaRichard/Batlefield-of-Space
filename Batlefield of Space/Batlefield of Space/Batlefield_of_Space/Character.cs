@@ -9,7 +9,7 @@ namespace Batlefield_of_Space
 {
     class CHARACTER
     {
-        public ENUMS.Orientation CharOrientation;
+        public Enums.Orientation CharOrientation;
         public int[] TextureFrameSize = new int[4] {3,7,11,15 };
         public float Interval = 70;
         public int FrameWidth = 32;
@@ -50,7 +50,7 @@ namespace Batlefield_of_Space
 
             Hitbox = new Rectangle(position.X - 10, position.Y - 10, position.Width + 20, position.Y + 20);
         }
-        public void Animation(ENUMS.Orientation newOrientation)
+        public void Animation(Enums.Orientation newOrientation)
         {
             if (newOrientation == this.CharOrientation)
             {
@@ -68,6 +68,30 @@ namespace Batlefield_of_Space
             {
                 this.CharOrientation = newOrientation;
                 this.CurrentFrameX = (int)this.CharOrientation * 4;
+            }
+        }
+
+        public Game GAME
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
+
+        public Game Game
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
             }
         }
     }

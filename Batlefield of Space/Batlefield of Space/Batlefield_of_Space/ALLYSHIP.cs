@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Batlefield_of_Space
 {
-    class ALLYSHIP :SPACESHIP
+    class Allyship :Spaceship
     {
 
     }
