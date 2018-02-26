@@ -10,7 +10,7 @@ namespace Batlefield_of_Space
         /// </summary>
         static void Main(string[] args)
         {
-            using (Game1 game = new Game1())
+            using (GAME game = new GAME())
             {
                 game.Run();
             }

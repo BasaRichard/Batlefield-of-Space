@@ -57,9 +57,19 @@
     <Reference Include="System.Net" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CHARACTER.cs" />
+    <Compile Include="GAME.CS" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Game1.cs" />
+    <Compile Include="Ship\Allyship.cs" />
+    <Compile Include="Ship\Enemiship.cs" />
+    <Compile Include="Ship\Spaceship.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Button.cs" />
+    <Compile Include="Spell\DamagingSepll1.cs" />
+    <Compile Include="Spell\DamagingSpell2.cs" />
+    <Compile Include="Spell\HarmfullSpell.cs" />
+    <Compile Include="Spell\Spell.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />
