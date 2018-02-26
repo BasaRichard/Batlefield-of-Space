@@ -10,8 +10,9 @@ namespace Batlefield_of_Space
         public enum GameState
         {
             Start = 0,
-            Play = 1,
-            Stop = 2
+            Base = 1,
+            Play = 2,
+            Stop = 3
         }
         public enum MenuState
         {

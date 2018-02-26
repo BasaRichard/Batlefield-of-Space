@@ -80,7 +80,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bt_exit.xnb</Output>
-      <Time>2018-02-23T13:54:31.0963897+01:00</Time>
+      <Time>2018-02-26T15:14:51.755604+01:00</Time>
     </Item>
     <Item>
       <Source>bt_newcharacter.png</Source>
@@ -89,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bt_newcharacter.xnb</Output>
-      <Time>2018-02-14T13:00:56.8047854+01:00</Time>
+      <Time>2018-02-26T15:14:53.8407232+01:00</Time>
     </Item>
     <Item>
       <Source>bt_newgame.png</Source>
