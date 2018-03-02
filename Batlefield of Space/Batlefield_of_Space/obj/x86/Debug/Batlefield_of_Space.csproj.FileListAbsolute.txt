@@ -28,3 +28,33 @@ C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\
 C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\button.xnb
 C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\charAnimation.xnb
 C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\obj\x86\Debug\Batlefield_of_Space.csprojResolveAssemblyReference.cache
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\alian1.xnb
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\alian2.xnb
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\alian3.xnb
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bg_alli.xnb
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bg_horde.xnb
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bg_menu.xnb
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bg_newgame.xnb
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bt_Back.xnb
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bt_exit.xnb
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bt_newcharacter.xnb
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bt_newgame.xnb
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bt_play.xnb
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\button.xnb
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\charAnimation.xnb
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Batlefield_of_Space.exe
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Batlefield_of_Space.pdb
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\obj\x86\Debug\Batlefield_of_Space.csprojResolveAssemblyReference.cache
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\obj\x86\Debug\Batlefield_of_Space.exe
+C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\obj\x86\Debug\Batlefield_of_Space.pdb

@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\alian1.xnb</Output>
-      <Time>2018-02-14T13:42:27.8542652+01:00</Time>
+      <Output>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\alian1.xnb</Output>
+      <Time>2018-03-02T13:39:25.7700388+01:00</Time>
     </Item>
     <Item>
       <Source>alian2.jpg</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\alian2.xnb</Output>
-      <Time>2018-02-14T13:42:43.3831534+01:00</Time>
+      <Output>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\alian2.xnb</Output>
+      <Time>2018-03-02T13:39:25.7710389+01:00</Time>
     </Item>
     <Item>
       <Source>alian3.jpg</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\alian3.xnb</Output>
-      <Time>2018-02-14T13:42:56.9129273+01:00</Time>
+      <Output>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\alian3.xnb</Output>
+      <Time>2018-03-02T13:39:25.773039+01:00</Time>
     </Item>
     <Item>
       <Source>bg_alli.jpg</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bg_alli.xnb</Output>
-      <Time>2017-11-15T16:47:52+01:00</Time>
+      <Output>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bg_alli.xnb</Output>
+      <Time>2018-03-02T13:39:25.7770392+01:00</Time>
     </Item>
     <Item>
       <Source>bg_horde.jpg</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bg_horde.xnb</Output>
-      <Time>2017-11-15T16:47:44+01:00</Time>
+      <Output>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bg_horde.xnb</Output>
+      <Time>2018-03-02T13:39:25.7800394+01:00</Time>
     </Item>
     <Item>
       <Source>bg_menu.jpg</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bg_menu.xnb</Output>
-      <Time>2017-11-29T16:11:56.3007364+01:00</Time>
+      <Output>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bg_menu.xnb</Output>
+      <Time>2018-03-02T13:39:25.7860397+01:00</Time>
     </Item>
     <Item>
       <Source>bg_newgame.jpg</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bg_newgame.xnb</Output>
-      <Time>2018-02-14T12:29:26.0216387+01:00</Time>
+      <Output>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bg_newgame.xnb</Output>
+      <Time>2018-03-02T13:39:25.7880399+01:00</Time>
     </Item>
     <Item>
       <Source>bt_Back.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bt_Back.xnb</Output>
-      <Time>2017-11-29T18:26:50.1336772+01:00</Time>
+      <Output>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bt_Back.xnb</Output>
+      <Time>2018-03-02T13:39:25.79004+01:00</Time>
     </Item>
     <Item>
       <Source>bt_exit.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bt_exit.xnb</Output>
-      <Time>2018-02-26T15:14:51.755604+01:00</Time>
+      <Output>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bt_exit.xnb</Output>
+      <Time>2018-03-02T13:39:25.7920401+01:00</Time>
     </Item>
     <Item>
       <Source>bt_newcharacter.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bt_newcharacter.xnb</Output>
-      <Time>2018-02-26T15:14:53.8407232+01:00</Time>
+      <Output>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bt_newcharacter.xnb</Output>
+      <Time>2018-03-02T13:39:25.7940402+01:00</Time>
     </Item>
     <Item>
       <Source>bt_newgame.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bt_newgame.xnb</Output>
-      <Time>2018-02-14T13:02:09.9479689+01:00</Time>
+      <Output>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bt_newgame.xnb</Output>
+      <Time>2018-03-02T13:39:25.7960403+01:00</Time>
     </Item>
     <Item>
       <Source>bt_play.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bt_play.xnb</Output>
-      <Time>2018-02-14T12:16:40.0478276+01:00</Time>
+      <Output>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\bt_play.xnb</Output>
+      <Time>2018-03-02T13:39:25.7970404+01:00</Time>
     </Item>
     <Item>
       <Source>button.png</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\button.xnb</Output>
-      <Time>2017-11-29T16:46:05.885966+01:00</Time>
+      <Output>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\button.xnb</Output>
+      <Time>2018-03-02T13:39:25.8000405+01:00</Time>
     </Item>
     <Item>
       <Source>charAnimation.png</Source>
@@ -124,49 +124,85 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\charAnimation.xnb</Output>
-      <Time>2017-11-28T22:13:48+01:00</Time>
+      <Output>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\charAnimation.xnb</Output>
+      <Time>2018-03-02T13:39:25.8010406+01:00</Time>
     </Item>
-    <BuildSuccessful>true</BuildSuccessful>
+    <Item>
+      <Source>8a60dfe241e32fb7eff007ce3f9328a0.jpg</Source>
+      <Name>8a60dfe241e32fb7eff007ce3f9328a0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\8a60dfe241e32fb7eff007ce3f9328a0.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>9a54efe58a22e32db92a99ae220f8a25.jpg</Source>
+      <Name>9a54efe58a22e32db92a99ae220f8a25</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\9a54efe58a22e32db92a99ae220f8a25.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>ship3.png</Source>
+      <Name>ship3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\ship3.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>ship7.png</Source>
+      <Name>ship7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\ship7.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <BuildSuccessful>false</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{CEF72C9F-F34A-41F7-881C-174EC7A8A9CD}</ContentProjectGUID>
       <TargetPlatform>Windows</TargetPlatform>
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_SpaceContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Projekt\Tryagain\Batlefield of Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_SpaceContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Suli\Source\Repos\Batlefield-of-Space\Batlefield of Space\Batlefield_of_Space\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2011-09-01T16:22:30+02:00</Value>
+        <Value>2011-09-01T17:22:30+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2011-09-01T16:22:30+02:00</Value>
+        <Value>2011-09-01T17:22:30+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2011-09-01T16:22:30+02:00</Value>
+        <Value>2011-09-01T17:22:30+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2011-09-01T16:22:30+02:00</Value>
+        <Value>2011-09-01T17:22:30+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2011-09-01T16:22:30+02:00</Value>
+        <Value>2011-09-01T17:22:30+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2011-09-01T16:22:30+02:00</Value>
+        <Value>2011-09-01T17:22:30+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2017-10-07T13:07:02.7620472+02:00</Value>
+        <Value>2018-02-16T08:18:40.6561747+01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

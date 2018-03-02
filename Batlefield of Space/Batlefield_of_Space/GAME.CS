@@ -23,11 +23,10 @@ namespace Batlefield_of_Space
         private SpriteBatch spriteBatch;
         private Texture2D background;   //háttér
         private Texture2D dummyTexture; //alap text
-        private MouseState ms;          //egér állapot
-        private MouseState prevms;         //elözö egér állapot
-        
-        private KeyboardState ks;
-        private KeyboardState prevks;
+        private MouseState mousestate;          //egér állapot
+        private MouseState prevmousestate;         //elözö egér állapot
+        private KeyboardState keystate;
+        private KeyboardState prevkeystate;
         private List<Button> buttons;
         private GameState gameState;
         private MenuState menuState;
@@ -44,13 +43,7 @@ namespace Batlefield_of_Space
             Content.RootDirectory = "Content";
 
         }
-
-        /// <summary>
-        /// Allows the game to perform any initialization it needs to before starting to run.
-        /// This is where it can query for any required services and load any non-graphic
-        /// related content.  Calling base.Initialize will enumerate through any components
-        /// and initialize them as well.
-        /// </summary>
+        
         protected override void Initialize()
         {
             gameState = GameState.Stop;
@@ -59,11 +52,7 @@ namespace Batlefield_of_Space
 
             base.Initialize();
         }
-
-        /// <summary>
-        /// LoadContent will be called once per game and is the place to load
-        /// all of your content.
-        /// </summary>
+        
         protected override void LoadContent()
         {
 
@@ -79,19 +68,13 @@ namespace Batlefield_of_Space
 
         }
 
-        /// <summary>
-        /// UnloadContent will be called once per game and is the place to unload
-        /// all content.
-        /// </summary>
+     
         protected override void UnloadContent()
         {
             // TODO: Unload any non ContentManager content here
         }
 
-        /// <summary>
-        /// Allows the game to run logic such as updating the world,
-        /// checking for collisions, gathering input, and playing audio.
-        /// </summary>
+        
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
@@ -99,23 +82,23 @@ namespace Batlefield_of_Space
 
             if (this.IsActive)
             {
-                if (prevms != ms)
+                if (prevmousestate != mousestate)
                 {
-                    prevms = ms;
+                    prevmousestate = mousestate;
                 }
-                ms = Mouse.GetState();
-                if (prevks != ks)
+                mousestate = Mouse.GetState();
+                if (prevkeystate != keystate)
                 {
-                    prevks = ks;
+                    prevkeystate = keystate;
                 }
-                ks = Keyboard.GetState();
+                keystate = Keyboard.GetState();
                 
                 switch (gameState)
                 {
                     case GameState.Start:
                         {
                             #region MOve
-                            if (ks.IsKeyDown(Keys.D) && !ks.IsKeyDown(Keys.A))
+                            if (keystate.IsKeyDown(Keys.D) && !keystate.IsKeyDown(Keys.A))
                             {
                                 character.Move(10, 0);
                                 if (timeElapsed >= character.Interval)
@@ -124,7 +107,7 @@ namespace Batlefield_of_Space
                                     timeElapsed = 0;
                                 }
                             }
-                            if (ks.IsKeyDown(Keys.A) && !ks.IsKeyDown(Keys.D))
+                            if (keystate.IsKeyDown(Keys.A) && !keystate.IsKeyDown(Keys.D))
                             {
                                 character.Move(-10, 0);
                                 if (timeElapsed >= character.Interval)
@@ -133,7 +116,7 @@ namespace Batlefield_of_Space
                                     timeElapsed = 0;
                                 }
                             }
-                            if (ks.IsKeyDown(Keys.W) && !ks.IsKeyDown(Keys.S))
+                            if (keystate.IsKeyDown(Keys.W) && !keystate.IsKeyDown(Keys.S))
                             {
                                 character.Move(0, -10);
                                 if (timeElapsed >= character.Interval)
@@ -142,7 +125,7 @@ namespace Batlefield_of_Space
                                     timeElapsed = 0;
                                 }
                             }
-                            if (ks.IsKeyDown(Keys.S) && !ks.IsKeyDown(Keys.W))
+                            if (keystate.IsKeyDown(Keys.S) && !keystate.IsKeyDown(Keys.W))
                             {
                                 character.Move(0, 10);
                                 if (timeElapsed >= character.Interval)
@@ -167,7 +150,7 @@ namespace Batlefield_of_Space
                     case GameState.Base:
                         {
                             #region MOve
-                            if (ks.IsKeyDown(Keys.D) && !ks.IsKeyDown(Keys.A))
+                            if (keystate.IsKeyDown(Keys.D) && !keystate.IsKeyDown(Keys.A))
                             {
                                 character.Move(10, 0);
                                 if (timeElapsed >= character.Interval)
@@ -176,7 +159,7 @@ namespace Batlefield_of_Space
                                     timeElapsed = 0;
                                 }
                             }
-                            if (ks.IsKeyDown(Keys.A) && !ks.IsKeyDown(Keys.D))
+                            if (keystate.IsKeyDown(Keys.A) && !keystate.IsKeyDown(Keys.D))
                             {
                                 character.Move(-10, 0);
                                 if (timeElapsed >= character.Interval)
@@ -185,7 +168,7 @@ namespace Batlefield_of_Space
                                     timeElapsed = 0;
                                 }
                             }
-                            if (ks.IsKeyDown(Keys.W) && !ks.IsKeyDown(Keys.S))
+                            if (keystate.IsKeyDown(Keys.W) && !keystate.IsKeyDown(Keys.S))
                             {
                                 character.Move(0, -10);
                                 if (timeElapsed >= character.Interval)
@@ -194,7 +177,7 @@ namespace Batlefield_of_Space
                                     timeElapsed = 0;
                                 }
                             }
-                            if (ks.IsKeyDown(Keys.S) && !ks.IsKeyDown(Keys.W))
+                            if (keystate.IsKeyDown(Keys.S) && !keystate.IsKeyDown(Keys.W))
                             {
                                 character.Move(0, 10);
                                 if (timeElapsed >= character.Interval)
@@ -227,13 +210,13 @@ namespace Batlefield_of_Space
                             buttons.Add(new Button(100, 200, Content.Load<Texture2D>("bt_newgame"), null));
                             buttons.Add(new Button(100, 300, Content.Load<Texture2D>("bt_exit"), null));
                             
-                            if (buttons[0].LeftClick(ms, prevms))
+                            if (buttons[0].LeftClick(mousestate, prevmousestate))
                             {
                                 menuState = MenuState.Newgame;
                             }
-                            else if (buttons[1].LeftClick(ms, prevms))
+                            else if (buttons[1].LeftClick(mousestate, prevmousestate))
                                 menuState = MenuState.Load;
-                            else if (buttons[2].LeftClick(ms, prevms))
+                            else if (buttons[2].LeftClick(mousestate, prevmousestate))
                                 Exit();
                             break;
                         }
@@ -248,13 +231,13 @@ namespace Batlefield_of_Space
                             buttons.Add(new Button(450, 300, Content.Load<Texture2D>("alian3"), null));
                            
 
-                            if (buttons[0].LeftClick(ms, prevms))
+                            if (buttons[0].LeftClick(mousestate, prevmousestate))
                             {
                                 gameState = GameState.Base;
                                 playState = PlayState.Player;
                                 menuState = MenuState.Game;
                             }
-                            if (buttons[1].LeftClick(ms, prevms))
+                            if (buttons[1].LeftClick(mousestate, prevmousestate))
                                 menuState = MenuState.Start;
                             break;
                         }
@@ -265,11 +248,11 @@ namespace Batlefield_of_Space
                             buttons.Add(new Button(110, 200, Content.Load<Texture2D>("bt_play"), null));
                             buttons.Add(new Button(120, 300, Content.Load<Texture2D>("bt_play"), null));
                             buttons.Add(new Button(100, 400, Content.Load<Texture2D>("bt_Back"), null));
-                            if (buttons[0].LeftClick(ms, prevms) || buttons[1].LeftClick(ms, prevms) || buttons[2].LeftClick(ms, prevms))
+                            if (buttons[0].LeftClick(mousestate, prevmousestate) || buttons[1].LeftClick(mousestate, prevmousestate) || buttons[2].LeftClick(mousestate, prevmousestate))
                             {
                                 playState = PlayState.Player;
                             }
-                            if (buttons[3].LeftClick(ms, prevms))
+                            if (buttons[3].LeftClick(mousestate, prevmousestate))
                                 menuState = MenuState.Start;
                             break;
                         }
@@ -300,11 +283,11 @@ namespace Batlefield_of_Space
                         }
                     case PlayState.Player:
                         {
-                            
+                            buttons.Clear();
                             gameState = GameState.Base;
                             background = Content.Load<Texture2D>("bg_newgame");
                             
-                            if (ks.IsKeyDown(Keys.Escape))
+                            if (keystate.IsKeyDown(Keys.Escape))
                             {
                                 playState = PlayState.Pause;
                                 gameState = GameState.Stop;
@@ -322,11 +305,11 @@ namespace Batlefield_of_Space
                             buttons.Clear();
                             buttons.Add(new Button(100, 100, Content.Load<Texture2D>("bt_play"), null));
                             buttons.Add(new Button(100, 200, Content.Load<Texture2D>("bt_back"), null));
-                            if (buttons[0].LeftClick(ms, prevms))
+                            if (buttons[0].LeftClick(mousestate, prevmousestate))
                             {
                                 playState = PlayState.Player;
                             }
-                            if (buttons[1].LeftClick(ms, prevms))
+                            if (buttons[1].LeftClick(mousestate, prevmousestate))
                             {
                                 menuState = MenuState.Start;
                                 playState = PlayState.Enemy;

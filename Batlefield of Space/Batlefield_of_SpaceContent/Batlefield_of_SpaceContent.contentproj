@@ -101,6 +101,36 @@
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="8a60dfe241e32fb7eff007ce3f9328a0.jpg">
+      <Name>8a60dfe241e32fb7eff007ce3f9328a0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="9a54efe58a22e32db92a99ae220f8a25.jpg">
+      <Name>9a54efe58a22e32db92a99ae220f8a25</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="ship3.png">
+      <Name>ship3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="ship7.png">
+      <Name>ship7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cartoon ship various colors.zip">
+      <Name>cartoon ship various colors</Name>
+    </Compile>
+    <Compile Include="spaceship1.from_.ipod_.zip">
+      <Name>spaceship1.from_.ipod_</Name>
+    </Compile>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
